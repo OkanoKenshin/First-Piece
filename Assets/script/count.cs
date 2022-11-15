@@ -9,7 +9,7 @@ public class count : MonoBehaviour
 {
     public Text timeTexts;
     public Text CountText;
-    float totalTime = 10;
+    float totalTime = 3;
     int retime;
     float countdown = 4f;
     int Count;
@@ -35,7 +35,7 @@ public class count : MonoBehaviour
                 retime = (int)totalTime;
                 if (retime == 0)
                 {
-                    SceneManager.LoadScene("result");
+                    SceneManager.LoadScene("cover");
                 }
             }
     }
